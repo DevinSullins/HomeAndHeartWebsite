@@ -19,6 +19,11 @@ header {
   transition: transform 0.5s;
 }
 
+#nav-menu.hidden {
+  transition: transform 0.5s;
+  transform: translateX(-100%);
+}
+
 header.hidden {
   transform: translateY(-100%);
 }

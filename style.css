@@ -1,0 +1,130 @@
+/* Reset default styles */
+html, body {
+  margin: 0;
+  padding: 0;
+  }
+
+  
+  
+  /* Add styles for images */
+  img {
+  width: 30%;
+  height: auto;
+  object-fit: cover;
+  object-position: center;
+  margin-bottom: 20px;
+  }
+
+  #blog {
+  background-color: #ffffff;
+  color: #0066cc;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+  margin: 20% 0;
+  }
+  
+  #blog h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  }
+  
+  #blog h3 {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  }
+  
+  #blog p {
+  font-size: 1.2em;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  }
+  
+  #blog a {
+  display: inline-block;
+  background-color: #0066cc;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 20px;
+  text-decoration: none;
+  transition: background-color 0.2s;
+  }
+  
+  #blog a:hover {
+  background-color: rgba(0, 102, 204, 0.9);
+  }
+  
+  #blog .blog-item {
+  margin-bottom: 20px;
+  }
+  
+  #follow-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 20% 0;
+    }
+    
+    #follow-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    }
+    
+    #follow-section .follow-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    #follow-section .follow-item {
+    display: inline-block;
+    text-align: center;
+    margin: 0 10px;
+    }
+    
+    #follow-section .follow-item img {
+    width: 40px;
+    height: 40px;
+    }
+    
+    #follow-section .follow-item:hover {
+    background-color: rgba(0, 102, 204, 0.9);
+    border-radius: 50%;
+    }
+    
+    footer {
+    background-color: #0066cc;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 20% 0;
+    }
+    
+    footer p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    }
+    
+    footer .social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    footer .social a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 10px;
+    border-radius: 50%;
+    }
+    
+    footer .social a:hover {
+    background-color: rgba(0, 102, 204, 0.9);
+    }

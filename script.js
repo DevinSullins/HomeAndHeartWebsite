@@ -1,21 +1,21 @@
-const header = document.querySelector("header");
-const navMenu = document.getElementById("nav-menu");
-const menuButton = document.getElementById("menu-button");
-
-let lastScrollTop = 0;
+var lastScrollTop = 0;
 
 window.addEventListener("scroll", function() {
-  let currentScroll = window.pageYOffset || document.documentElement.scrollTop;
+  var header = document.querySelector("header");
+  var navMenu = document.getElementById("nav-menu");
+  var currentScroll = window.pageYOffset || document.documentElement.scrollTop;
   if (currentScroll > lastScrollTop) {
     header.classList.add("hidden");
-    navMenu.classList.add("hidden-nav");
+    navMenu.classList.add("hidden");
   } else {
     header.classList.remove("hidden");
-    navMenu.classList.remove("hidden-nav");
+    navMenu.classList.add("hidden");
   }
   lastScrollTop = currentScroll;
 });
 
-menuButton.addEventListener("click", function() {
+document.getElementById("menu-button").addEventListener("click", function() {
+  var navMenu = document.getElementById("nav-menu");
+  navMenu.classList.remove("hidden");
   navMenu.classList.toggle("active");
 });

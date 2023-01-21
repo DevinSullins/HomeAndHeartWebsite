@@ -181,3 +181,20 @@ html, body {
  .fadeIn {
  	animation: fadeIn .5s ease-in-out;
  }
+
+ /* Coming Soon */
+
+ .coming-soon {
+  text-align: center;
+  padding: 50px;
+}
+
+.coming-soon h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.coming-soon p {
+  font-size: 1.5rem;
+  color: #999;
+}
